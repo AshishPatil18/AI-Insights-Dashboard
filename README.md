@@ -5,7 +5,7 @@ The **AI Insights Dashboard** is an interactive Tableau project analyzing **AI R
 It brings together global datasets to explore how nations, industries, and companies are adapting to the AI era.
 
 👉 [View the Live Dashboard on Tableau Public](https://public.tableau.com/views/Ai_Analysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
-🎥 [Video Presentation](https://youtu.be/XxoKFDFxS84?si=981BAbu2o3RO56rc)
+🎥 [Video Presentation](https://youtu.be/U0N1pFS6rN4)
 ---
 
 ## ✨ Features
