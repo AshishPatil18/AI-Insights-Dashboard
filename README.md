@@ -1,3 +1,5 @@
+# 🌍 AI Insights Dashboard
+
 ## 🔹 Overview
 The **AI Insights Dashboard** is an interactive Tableau project analyzing **AI Readiness, Job Market Insights, and Investment & Adoption** between 2014–2025.  
 It brings together global datasets to explore how nations, industries, and companies are adapting to the AI era.
