@@ -62,7 +62,7 @@ It brings together global datasets to explore how nations, industries, and compa
 ## 📂 Repository Contents
 - `README.md` → this file  
 - `datasets/` → cleaned datasets (CSV/Excel)  
-- `AI_Insights_Dashboard.twbx` → packaged Tableau workbook  
+- `AI_Insights_Dashboard.twb` → packaged Tableau workbook  
 
 ---
 
