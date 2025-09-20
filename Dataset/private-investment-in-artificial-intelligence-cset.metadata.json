@@ -1,0 +1,44 @@
+{
+  "chart": {
+    "title": "Annual private investment in artificial intelligence",
+    "subtitle": "Only includes private-market investment flows, such as venture capital; excludes all investment in publicly traded companies, such as the \"Big Tech\" firms. Expressed in US dollars, adjusted for inflation.",
+    "note": "Data is expressed in constant 2021 US$. Inflation adjustment is based on the US Consumer Price Index (CPI).",
+    "citation": "Center for Security and Emerging Technology (2025); U.S. Bureau of Labor Statistics (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/private-investment-in-artificial-intelligence-cset?v=1&csvType=full&useColumnShortNames=false&utm_source=chatgpt.com",
+    "selection": [
+      "United States",
+      "China",
+      "World",
+      "United Kingdom"
+    ]
+  },
+  "columns": {
+    "Estimated investment - Field: All": {
+      "titleShort": "Estimated investment - All",
+      "titleLong": "Estimated investment - All",
+      "descriptionShort": "Only includes private — market investment such as venture capital; excludes all investment in publicly traded companies, such as \"Big Tech\" firms. This data is expressed in US dollars, adjusted for inflation.",
+      "descriptionKey": [
+        "The data likely underestimates total global AI investment, as it only captures certain types of private equity transactions, excluding other significant channels and categories of AI — related spending.",
+        "The dataset only covers private — market investment such as venture capital. It excludes non — equity financing, such as debt and grants, and publicly traded companies, including major Big Tech firms. As a result, significant investments from public companies, corporate R&D, government funding, and broader infrastructure costs (like data centers and hardware) are not captured, limiting the data's coverage of global AI investments.",
+        "The data's \"World\" aggregate reflects the total investment represented in the data, but may not represent global AI efforts comprehensively, especially in countries not included in the data.",
+        "Companies are classified as AI — related based on keyword and industry tags, potentially including firms not traditionally seen as AI — focused while missing others due to definitional differences.",
+        "Many investment values are undisclosed, so the source relies on median values from similar transactions, introducing some uncertainty. Additionally, investment origin is attributed to company headquarters, which may overlook cross — border structures or varied investor origins.",
+        "One — time events, such as large acquisitions, can distort yearly figures, while broader economic factors like interest rates and market sentiment can influence investment trends independently of AI — specific developments."
+      ],
+      "descriptionProcessing": "- Reporting a time series of AI investments in nominal prices would make it difficult to compare observations across time. To make these comparisons possible, one has to take into account that prices change (inflation).\n- It is not obvious how to adjust this time series for inflation, and our team discussed the best solutions at our disposal.\n- It would be straightforward to adjust the time series for price changes if we knew the prices of the specific goods and services purchased through these investments. This would make it possible to calculate a volume measure of AI investments and tell us how much these investments bought. But such a metric is not available. While a comprehensive price index is not available, we know that the cost of some crucial AI technology has fallen rapidly in price.\n- In the absence of a comprehensive price index that captures the price of AI — specific goods and services, one has to rely on one of the available metrics for the price of a bundle of goods and services. Ultimately, we decided to use the US Consumer Price Index (CPI).\n- The US CPI does not provide us with a volume measure of AI goods and services, but it does capture the opportunity costs of these investments. The inflation adjustment of this time series of AI investments, therefore, lets us understand the size of these investments relative to whatever else these sums of money could have purchased.\n- World aggregate does not include data for Micronesia, Tonga, Samoa, Kiribati, Fiji, Papua New Guinea, Palau, Tuvalu, Bermuda, Armenia, Belarus, Georgia, Gibraltar, Jersey, Kosovo, Moldova, Isle of Man, Iceland, Albania, Andorra, Bosnia and Herzegovina, Malta, Montenegro, San Marino, North Macedonia, Liechtenstein, Monaco, Vatican City, Guernsey, Afghanistan, Kyrgyzstan, Bahrain, Laos, Bangladesh, Lebanon, Bhutan, Maldives, Cambodia, Syria, Tajikistan, Cyprus, Mongolia, North Korea, Myanmar, Timor-Leste, Nepal, Turkmenistan, Pakistan, Palestine, Iraq, United Arab Emirates, Uzbekistan, Kazakhstan, Qatar, Vietnam, Yemen, Kuwait, Algeria, Cape Verde, Equatorial Guinea, Swaziland, Namibia, Central African Republic (the), Angola, Ethiopia, Niger, Benin, Gabon, Nigeria, Botswana, Gambia, Rwanda, Burkina Faso, Ghana, São Tomé and Príncipe, Burundi, Guinea, Senegal, Guinea-Bissau, Seychelles, Cameroon, Sierra Leone, Lesotho, Somalia, Chad, Liberia, Libya, South Sudan, Congo, Madagascar, Sudan, Côte d'Ivoire, Malawi, Togo, Mali, Djibouti, Mauritania, Uganda, Egypt, Mauritius, Tanzania, Zambia, Eritrea, Mozambique, Zimbabwe, Comoros, Antigua and Barbuda, Bolivia, Suriname, Nicaragua, Dominican Republic, Bahamas, Ecuador, Paraguay, Barbados, Saint Vincent and the Grenadines, El Salvador, Belize, Grenada, Saint Kitts and Nevis, Guatemala, Guyana, Haiti, Honduras, Trinidad and Tobago, Jamaica, Venezuela, Puerto Rico, Cayman Islands (the), Turks and Caicos Islands, Saint Lucia, and Dominica.",
+      "shortUnit": "$",
+      "unit": "constant 2021 US$",
+      "timespan": "2014-2023",
+      "type": "Integer",
+      "owidVariableId": 1026207,
+      "shortName": "estimated_investment__field_all",
+      "lastUpdated": "2025-04-18",
+      "nextUpdate": "2026-04-18",
+      "citationShort": "Center for Security and Emerging Technology (2025); U.S. Bureau of Labor Statistics (2025) – processed by Our World in Data",
+      "citationLong": "Center for Security and Emerging Technology (2025); U.S. Bureau of Labor Statistics (2025) – processed by Our World in Data. “Estimated investment - All” [dataset]. Center for Security and Emerging Technology, “Country Activity Tracker: Artificial Intelligence”; U.S. Bureau of Labor Statistics, “US consumer prices” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1026207.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-09-11",
+  "activeFilters": {}
+}
